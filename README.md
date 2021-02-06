@@ -3,6 +3,9 @@
 (previously named as Boundary Attack++)
 Code for [HopSkipJumpAttack: A Query-Efficient Decision-Based Adversarial Attack](https://arxiv.org/abs/1904.02144) by Jianbo Chen, Michael I. Jordan, Martin J. Wainwright.
 
+## Clarification
+If you are using the code to compare HSJA with other algorithms, you will need to **set your own counter for the number of model evaluations**. "max_num_evals" is the maximum number of evaluations for estimating gradient (for each iteration), **not the total number of model evaluations**. 
+ 
 
 ## Dependencies
 The code for HopSkipJumpAttack runs with Python and requires Tensorflow of version 1.2.1 or higher. Please `pip install` the following packages:
