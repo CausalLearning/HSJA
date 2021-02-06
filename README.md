@@ -4,7 +4,7 @@
 Code for [HopSkipJumpAttack: A Query-Efficient Decision-Based Adversarial Attack](https://arxiv.org/abs/1904.02144) by Jianbo Chen, Michael I. Jordan, Martin J. Wainwright.
 
 ## Clarification
-If you are using the code to compare HSJA with other algorithms, you will need to **set your own counter for the number of model evaluations**. "max_num_evals" is the maximum number of evaluations for estimating gradient (for each iteration), **not the total number of model evaluations**. 
+If you are using the code to compare HSJA with other algorithms, you will need to **set your own counter for the number of model evaluations**. "max_num_evals" in hsja.py is the maximum number of evaluations for estimating gradient (for each iteration), **not the total number of model evaluations**. 
  
 
 ## Dependencies
