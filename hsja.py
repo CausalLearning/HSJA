@@ -40,7 +40,9 @@ def hsja(model,
 
 	stepsize_search: choose between 'geometric_progression', 'grid_search'.
 
-	max_num_evals: maximum number of evaluations for estimating gradient.
+	max_num_evals: maximum number of evaluations for estimating gradient (for each iteration). 
+	This is not the total number of model evaluations for the entire algorithm, you need to 
+	set a counter of model evaluations by yourself to get that. It increases with num_iterations.
 
 	init_num_evals: initial number of evaluations for estimating gradient.
 
